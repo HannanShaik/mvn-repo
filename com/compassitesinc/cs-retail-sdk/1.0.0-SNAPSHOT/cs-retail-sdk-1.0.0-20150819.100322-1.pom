@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.compassitesinc</groupId>
+  <artifactId>cs-retail-sdk</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>aar</packaging>
+  <name>CS Retail SDK</name>
+  <description>CS Retail SDK</description>
+  <url>https://github.com/HannanShaik/mvn-repo/</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>HannanShaik</id>
+      <name>Hannan Shaik</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:hg:https://github.com/HannanShaik/mvn-repo/</connection>
+    <developerConnection>scm:hg:https://github.com/HannanShaik/mvn-repo/</developerConnection>
+    <url>https://github.com/HannanShaik/mvn-repo/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.octo.android.robospice</groupId>
+      <artifactId>robospice</artifactId>
+      <version>1.4.14</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.path</groupId>
+      <artifactId>android-priority-jobqueue</artifactId>
+      <version>1.1.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp-urlconnection</artifactId>
+      <version>2.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>22.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.compassitesinc</groupId>
+      <artifactId>android-commons</artifactId>
+      <version>1.0.1-SNAPSHOT</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>okhttp</artifactId>
+          <groupId>com.squareup.okhttp</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>appcompat-v7</artifactId>
+          <groupId>com.android.support</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>2.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.octo.android.robospice</groupId>
+      <artifactId>robospice-retrofit</artifactId>
+      <version>1.4.14</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
