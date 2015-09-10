@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.cs</groupId>
+  <artifactId>android-commons</artifactId>
+  <version>1.0.2-SNAPSHOT</version>
+  <versioning>
+    <versions>
+      <version>1.0.2-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20150910070214</lastUpdated>
+  </versioning>
+</metadata>
