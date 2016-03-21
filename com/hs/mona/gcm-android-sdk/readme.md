@@ -14,7 +14,7 @@ https://developers.google.com/cloud-messaging/android/client
 So I followed it and created a small library out of it. Now none of us have to read the long documentation and do trial and error for each section you code. All you've to do is include this library in your code.
 
 
-**Sample Project can be found here :**
+**Sample Project can be found here : https://github.com/HannanShaik/MonaGCMSample**
 
 ##Setup
 
