@@ -23,7 +23,7 @@ So I followed it and created a small library out of it. Now none of us have to r
 ```
 repositories {
     ...
-    maven { url 'https://raw.github.com/hannanshaik/mvn-repo/releases/' }
+    jcenter()
 }
 
 dependencies {
