@@ -52,7 +52,9 @@ https://goo.gl/DvVgnJ
             </intent-filter>
         </receiver>
 
-        <!-- Below is a custom broadcast receiver that will receive your push notifications and process them -->
+        <!-- Create a Broadcast Receiver that will recieve the push and Process them.
+        Ex - PushNotificationReceiver (which is placed in package)-->
+        
         <receiver
             android:name=".PushNotificationReceiver"
             android:exported="false" >
