@@ -1,6 +1,6 @@
 #GCM Android SDK
 
-**Latest Version - 1.0.2**
+**Latest Version - 1.0.3**
 
 
 As per google’s documentation “Google Cloud Messaging for Android (GCM) is a service that helps developers send data from servers to their Android applications on Android devices”. Using this service you can send data to your application whenever new data is available instead of making requests to server in timely fashion. Integrating GCM in your android application enhances user experience and saves lot of battery power
@@ -28,7 +28,7 @@ repositories {
 
 dependencies {
     ...
-    compile 'com.hs.mona:gcm-android-sdk:1.0.2'
+    compile 'com.hs.mona:gcm-android-sdk:1.0.3'
     ...
 }
 ```
