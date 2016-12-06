@@ -1,5 +1,17 @@
 #GCM Android SDK
 
+##Latest Update
+
+Google has deprecated GCM & introduced FCM.
+
+
+>Firebase Cloud Messaging (FCM) is the new version of GCM. It inherits the reliable and scalable GCM infrastructure, plus new features! If you are integrating messaging in a new app, start with FCM. GCM users are strongly recommended to upgrade to FCM, in order to benefit from new FCM features today and in the future.
+
+FCM setup is very easy. All you need to do is follow [this link](https://firebase.google.com/docs/cloud-messaging/android/client).
+
+
+##GCM Android SDK
+
 **Latest Version - 1.0.3**
 
 
